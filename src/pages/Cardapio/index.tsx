@@ -31,7 +31,7 @@ export default function Cardapio(){
                     <div className={styles.cardapio__filtros}>
                         <Filtros filtro={filtro} setFiltro={setFiltro}/>
                         <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
-                        <Itens/>
+                        <Itens busca={busca} filtro={filtro} ordenador={ordenador} />
                     </div>
                 </section>
         </main>
